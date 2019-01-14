@@ -1,10 +1,20 @@
 pipeline {
-  agent any
-  stages {
-    stage('') {
-      steps {
-        sleep 1
-      }
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+                // 
+            }
+        }
+        stage('Test') { 
+            steps {
+                // 
+            }
+        }
+        stage('Deploy') { 
+            steps {
+                // 
+            }
+        }
     }
-  }
 }
